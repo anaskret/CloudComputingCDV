@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qmiFoHAC4SqB+jjlekcYhAUJPb2a6Jaknhd2D9cyJt2dyBVvhRK5taIGCSvQPY69uEvDr/Xi2EgsdCk++sMpBw==",
+  "dgSpecHash": "qieRcvhFAv+dY3/o0evIkIKo8RJhdKcl+y7mGzOJqPQ63jwyXVoDD2QP3gW+nNTuc9p5YGpQdbXd4xmJIAjDzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\i7\\Source\\Repos\\CloudComputingCDV\\Lab1_Aleksander_Naskret\\Lab1_Aleksander_Naskret\\Lab1_Aleksander_Naskret.csproj",
+  "projectFilePath": "C:\\Users\\i7\\source\\repos\\CloudComputingCDV\\Lab1_Aleksander_Naskret\\Lab1_Aleksander_Naskret\\Lab1_Aleksander_Naskret.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\i7\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\i7\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

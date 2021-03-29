@@ -2069,20 +2069,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\i7\\.nuget\\packages\\": {}
+    "C:\\Users\\i7\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\i7\\Source\\Repos\\CloudComputingCDV\\Lab1_Aleksander_Naskret\\Lab1_Aleksander_Naskret\\Lab1_Aleksander_Naskret.csproj",
+      "projectUniqueName": "C:\\Users\\i7\\source\\repos\\CloudComputingCDV\\Lab1_Aleksander_Naskret\\Lab1_Aleksander_Naskret\\Lab1_Aleksander_Naskret.csproj",
       "projectName": "Lab1_Aleksander_Naskret",
-      "projectPath": "C:\\Users\\i7\\Source\\Repos\\CloudComputingCDV\\Lab1_Aleksander_Naskret\\Lab1_Aleksander_Naskret\\Lab1_Aleksander_Naskret.csproj",
+      "projectPath": "C:\\Users\\i7\\source\\repos\\CloudComputingCDV\\Lab1_Aleksander_Naskret\\Lab1_Aleksander_Naskret\\Lab1_Aleksander_Naskret.csproj",
       "packagesPath": "C:\\Users\\i7\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\i7\\Source\\Repos\\CloudComputingCDV\\Lab1_Aleksander_Naskret\\Lab1_Aleksander_Naskret\\obj\\",
+      "outputPath": "C:\\Users\\i7\\source\\repos\\CloudComputingCDV\\Lab1_Aleksander_Naskret\\Lab1_Aleksander_Naskret\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\i7\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

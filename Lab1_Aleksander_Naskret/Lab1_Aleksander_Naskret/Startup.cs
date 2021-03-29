@@ -30,7 +30,7 @@ namespace Lab1_Aleksander_Naskret
         {
 
             services.AddControllers();
-            var connectionString = Configuration.GetConnectionString("LocalDb");
+            var connectionString = Configuration.GetConnectionString("AzureDb");
             services.AddDbContext<AzureDbContext>(options =>
             {
                 options.UseSqlServer(connectionString);
