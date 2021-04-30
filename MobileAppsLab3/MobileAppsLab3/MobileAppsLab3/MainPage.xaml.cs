@@ -16,6 +16,9 @@ namespace MobileAppsLab3
     {
         private readonly IPeopleClient client;
         private Person person = new Person();
+
+        private readonly MainPageViewModel mainPageViewModel = new MainPageViewModel();
+
         public MainPage(IPeopleClient client)
         {
             InitializeComponent();
@@ -67,7 +70,8 @@ namespace MobileAppsLab3
                 }
             };
 
-            entFirstName.TextChanged += (object sender, TextChangedEventArgs e) =>
+            person.FirstName = FirstNameEntryName;
+            /*entFirstName.TextChanged += (object sender, TextChangedEventArgs e) =>
             {
                 person.FirstName = e.NewTextValue;
             };
@@ -80,7 +84,7 @@ namespace MobileAppsLab3
             entPhoneNumber.TextChanged += (object sender, TextChangedEventArgs e) =>
             {
                 person.PhoneNumber = e.NewTextValue;
-            };
+            };*/
         }
 
         private bool Validate()

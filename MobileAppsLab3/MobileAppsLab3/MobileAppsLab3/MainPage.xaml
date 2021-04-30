@@ -12,9 +12,9 @@
         <Image x:Name="imgPhoto" />
         <StackLayout Grid.Row="1">
             <Button x:Name="btnCamera" Text="Take a Photo" />
-            <Entry x:Name="entFirstName" Placeholder="First name" />
-            <Entry x:Name="entLastName" Placeholder="Last name" />
-            <Entry x:Name="entPhoneNumber" Placeholder="Phone number" Keyboard="Telephone" />
+            <Entry x:Name="entFirstName" Text="{Binding PersonModel.FirstName, Mode=TwoWay}" Placeholder="First name" />
+            <Entry x:Name="entLastName" Text="{Binding PersonModel.LastName, Mode=TwoWay}" Placeholder="Last name" />
+            <Entry x:Name="entPhoneNumber" Text="{Binding PersonModel.PhoneNumber, Mode=TwoWay}" Placeholder="Phone number" Keyboard="Telephone" />
         </StackLayout>
         <StackLayout Grid.Row="2" VerticalOptions="EndAndExpand">
             <Button x:Name="btnSave" Text="Save data" />
