@@ -1,6 +1,8 @@
-﻿using System;
+﻿using MobileAppsLab3.Models.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace MobileAppsLab3
@@ -11,6 +13,23 @@ namespace MobileAppsLab3
         private string _firstNameEntryText;
         private string _lastNameEntryText;
         private string _phoneNumberEntryText;
+        private Person _person;
+
+        public Person PersonModel { 
+            get
+            {
+                return _person;
+            }
+            set 
+            {
+                _person = value;
+                OnPropertyChanged();
+            }}
+
+        public MainPageViewModel()
+        {
+
+        }
 
         public string FirstNameEntryText //Property we will bind our Entry Text to so we can pass it as a parameter to our MainPage view.
         {

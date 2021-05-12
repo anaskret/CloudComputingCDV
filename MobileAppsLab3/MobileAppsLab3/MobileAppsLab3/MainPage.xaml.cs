@@ -17,13 +17,15 @@ namespace MobileAppsLab3
         private readonly IPeopleClient client;
         private Person person = new Person();
 
-        private readonly MainPageViewModel mainPageViewModel = new MainPageViewModel();
+        private readonly MainPageViewModel mainPageViewModel;
 
         public MainPage(IPeopleClient client)
         {
             InitializeComponent();
             IntializeEvents();
             this.client = client;
+            mainPageViewModel = new MainPageViewModel();
+            BindingContext = mainPageViewModel;
         }
 
         private void IntializeEvents()
